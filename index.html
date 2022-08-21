@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -44,9 +42,17 @@
 
 
             <!-- Player Selection Box -->
-            <div class="col-3">
-
+            <div class="col-3 border border-2 border-secondary mb-2">
+                <h4 class="text-center"><u>Selected - V</u></h4>
+                <ul>
+                    <li>Antonio Rüdiger</li>
+                    <li>Lionel Messi</li>
+                    <li>Ilkay Gundogan</li>
+                    <li>Neymar Jr.</li>
+                    <li>Cristiano Ronaldo</li>
+                </ul>
             </div>
+            
             <!-- Player Selection Box -->
 
             <div class="col-3  mb-5">
@@ -76,7 +82,40 @@
 
               <!-- Money Count Box -->
               <div class="col-3 border border-2 border-secondary ">
-                <h4 class="text-center"><u> Budget</u></h4>
+                    <h4 class="text-center"><u> Budget</u></h4>
+                    <div class="d-flex">
+                        <p class="me-4">Per Player</p> 
+                        <input type="number">
+                    </div>
+                    <div class="d-grid mt-4">
+                        <button class="btn btn-success rounded rounded-0" type="button">Calculate</button>
+                    </div>
+                    <div class="mt-3">
+                        <p><span>Player Expenses: </span>  $<span>00</span></p>
+                    </div>
+
+                    <div class="d-flex">
+                        <div>
+                            <p class="me-5">Manager</p>
+                        </div>
+                        <div >
+                            <p class="border border-1 border-white px-3">2000</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div>
+                            <p class="me-5">Coach:</p>
+                        </div>
+                        <div >
+                            <p class="border border-1 border-white px-3 ms-3">4000</p>
+                        </div>
+                    </div>
+                    <div class="d-grid mt-0">
+                        <button class="btn btn-success rounded rounded-0" type="button">Calculate Total</button>
+                    </div>
+                    <div class="mt-1">
+                        <p class="text-center"><span>Toal: </span> <span class="text-danger fw-bold"> $</span><span class="text-danger fw-bold">00</span></p>
+                    </div>
               </div>
               <!-- Money Count Box -->
         </div>
@@ -88,4 +127,8 @@
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
+  <footer class="bg-dark mt-5 py-5 text-center">
+    <p>Copyright@ 2022 All Rights Reserved</p>
+    <p>Md. Arafat Hossain Araf</p>
+  </footer>
 </html>
