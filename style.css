@@ -6,6 +6,7 @@
     background-color: 	#505050;
 }
 
+/*Simple Animation */
 @keyframes flicker1 {
     from {
       text-shadow:
