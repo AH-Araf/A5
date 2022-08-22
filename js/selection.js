@@ -26,7 +26,7 @@ tableBody.innerHTML ='';
     const name = playercart[i]. playerName;
     const tr =document.createElement('tr');
     tr.innerHTML = `
-              <td>${i+1}</td>
+              <td>${i+1}. </td>
             <td>${name}</td>
         ` 
         tableBody.appendChild(tr);
